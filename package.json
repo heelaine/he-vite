@@ -1,17 +1,9 @@
 {
-  "name": "vite-boot",
+  "name": "he-vite",
   "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@7.11.0",
   "description": "Vite starter template with TailwindCSS",
-  "keywords": [
-    "viteBoot",
-    "vite-boot",
-    "vite",
-    "tailwindcss",
-    "fast",
-    "boot"
-  ],
   "main": "src/main.ts",
   "scripts": {
     "dev": "vite",

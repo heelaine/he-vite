@@ -25,5 +25,12 @@
   "prettier.enable": false,
   "prettier.printWidth": 200,
   "prettier.semi": true,
-  "prettier.singleQuote": false
+  "prettier.singleQuote": false,
+  "i18n-ally.localesPaths": [
+    "src/locales"
+  ],
+  // vetur关闭
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false
 }

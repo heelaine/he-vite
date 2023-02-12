@@ -18,14 +18,14 @@ import LocalesChange from "./components/LocalesChange/index.vue";
           <div
             class="inline-flex text-lg text-primary transition-all duration-200 md:text-3xl"
           >
-            <span class="text-accent">V<span class="lowercase">ite</span></span>
-            <span class="text-base-content">B<span class="lowercase">oot</span></span>
+            <span class="text-accent">H<span class="lowercase">e</span></span>
+            <span class="text-base-content">V<span class="lowercase">ite</span></span>
           </div>
         </RouterLink>
       </div>
       <div>
-        <ThemeChange />
-        <LocalesChange />
+        <!-- <ThemeChange /> -->
+        <!-- <LocalesChange /> -->
         <span
           class="tooltip tooltip-bottom before:text-xs before:content-[attr(data-tip)]"
           data-tip="GitHub"
@@ -34,7 +34,7 @@ import LocalesChange from "./components/LocalesChange/index.vue";
             <a
               aria-label="Github"
               target="_blank"
-              href="https://github.com/kirklin/vite-boot"
+              href="https://github.com/heelaine/he-vite"
               class="btn-ghost drawer-button btn-square btn normal-case"
             >
               <IMdiGithub />
