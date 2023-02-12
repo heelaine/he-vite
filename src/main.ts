@@ -7,10 +7,12 @@ import { createI18n } from "vue-i18n";
 import { router } from "./router";
 
 import { registerStore } from "./store";
+
 import App from "~/App.vue";
 
 import "~/styles/tailwind.css";
 import "~/styles/main.css";
+import "virtual:svg-icons-register";
 
 const app = createApp(App);
 const messages = Object.fromEntries(
@@ -28,4 +30,4 @@ app.use(createI18n({
 app.use(createPinia());
 registerStore();
 app.use(router);
-app.mount("#app");
+app.mount("#he-vite");
