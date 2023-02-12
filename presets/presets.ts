@@ -35,6 +35,7 @@ export default () => {
         "vue-i18n",
         "vue/macros",
 				"pinia",
+				'@vueuse/core',
 				{ "@vueuse/router": ["useRouteParams", "useRouteHash", "useRouteQuery"] },
         { "vue-request": ["useRequest", "useLoadMore", "usePagination"] },
       ],
@@ -42,6 +43,7 @@ export default () => {
       dirs: [
         "src/composables",
         "src/store",
+				"src/hooks"
       ],
       vueTemplate: true,
 			resolvers: [ElementPlusResolver(), IconsResolver({ prefix: "Icon", customCollections: ["custom"] })],
@@ -53,7 +55,7 @@ export default () => {
       // imports 指定组件所在位置，默认为 src/components; 有需要也可以加上 view 目录
       resolvers: [
         IconsResolver(),
-        ElementPlusResolver({ importStyle: "sass" }),
+        ElementPlusResolver(),
         VueUseComponentsResolver(),
       ],
     }),

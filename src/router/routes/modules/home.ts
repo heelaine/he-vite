@@ -16,6 +16,11 @@ const home = [{
   name: "StoreTest",
   component: () => import("~/views/home/components/StoreTest.vue"),
 },
+{
+  path: "/SvgIcon",
+  name: "SvgIcon",
+  component: () => import("~/views/home/components/TheSvg.vue"),
+},
 ];
 
 export default home;

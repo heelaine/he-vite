@@ -6,6 +6,9 @@
   "plugins": ["tailwindcss"],
   "rules": {
     "tailwindcss/no-custom-classname": "off",
+		"@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/no-explicit-an": 0,
+    "@typescript-eslint/no-this-alias": "off",
     "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-call": "off",

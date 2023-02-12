@@ -6,6 +6,16 @@ const testStore = () => {
     name: "StoreTest",
   });
 };
+
+const svgClick = () => {
+  router.push({
+    name: "SvgIcon",
+  });
+};
+
+const dialogOpen = () => {
+  useTemplate();
+};
 </script>
 
 <template>
@@ -17,10 +27,16 @@ const testStore = () => {
     <div class="hero-content text-center">
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">
-          He Vite <SvgIcon name="search" />
+          He Vite
         </h1>
-        <button class="btn-primary btn" @click="testStore">
-          Test Store
+        <button class="btn-primary btn mr-5" @click="testStore">
+          pinia使用
+        </button>
+        <button class="btn-primary btn mr-5" @click="svgClick">
+          引入图标
+        </button>
+        <button class="btn-primary btn mr-5" @click="dialogOpen">
+          引入弹窗
         </button>
       </div>
     </div>

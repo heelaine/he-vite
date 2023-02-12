@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>成功</title>
+    <g id="V2.0.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.3预约成功" transform="translate(-236.000000, -127.000000)">
+            <g id="编组-4备份-4" transform="translate(220.000000, 116.000000)">
+                <g id="成功" transform="translate(16.000000, 11.000000)">
+                    <circle id="椭圆形" fill="#2EC787" cx="9" cy="9" r="9"></circle>
+                    <g id="checkbox/选中">
+                        <rect id="矩形备份-21" fill="#5F82FF" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                        <path d="M12.375,13.5 L10.125,13.5 L10.124,4.5 L5.625,4.5 L5.625,2.25 L12.375,2.25 L12.375,13.5 Z" id="形状结合" fill="#FFFFFF" transform="translate(9.000000, 7.875000) scale(-1, 1) rotate(135.000000) translate(-9.000000, -7.875000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

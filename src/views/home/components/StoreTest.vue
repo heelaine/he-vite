@@ -9,13 +9,13 @@ import appStore from "~/store";
       <div class="display">
         <div class="phone-1 artboard artboard-demo">
           <p class="text-xl font-medium uppercase tracking-wide">
-            Counter:
+            次数:
           </p>
           <p class="text-4xl font-bold uppercase">
             {{ appStore.counter.count }}
           </p>
           <button type="button" class="btn-primary btn" @click="appStore.counter.increment()">
-            increment
+            点击
           </button>
         </div>
       </div>

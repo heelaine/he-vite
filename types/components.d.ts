@@ -7,6 +7,14 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    ElButton: typeof import('element-plus/es')['ElButton']
+    ElDialog: typeof import('element-plus/es')['ElDialog']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElIconBottomLeft: typeof import('@element-plus/icons-vue')['BottomLeft']
+    ElIconClose: typeof import('@element-plus/icons-vue')['Close']
+    ElIconFullScreen: typeof import('@element-plus/icons-vue')['FullScreen']
+    ElTooltip: typeof import('element-plus/es')['ElTooltip']
+    HDialog: typeof import('./../src/components/ui/h-dialog.vue')['default']
     IMdiGithub: typeof import('~icons/mdi/github')['default']
     ITablerChevronDown: typeof import('~icons/tabler/chevron-down')['default']
     ITablerColorSwatch: typeof import('~icons/tabler/color-swatch')['default']
@@ -14,5 +22,9 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SvgIcon: typeof import('./../src/components/SvgIcon/index.vue')['default']
+    TheTemplateDialog: typeof import('./../src/components/modal/TheTemplateDialog.vue')['default']
+  }
+  export interface ComponentCustomProperties {
+    vLoading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }
