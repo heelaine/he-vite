@@ -109,9 +109,10 @@ defineExpose({ open, close });
 
 <style lang="scss">
 .h-dialog__header_btn {
-  position: absolute;
-  top: var(--ep-dialog-padding-primary);
-  right: var(--ep-dialog-padding-primary);
+  position: absolute;right: 20px;
+  top: 20px;
+  // top: var(--ep-dialog-padding-primary);
+  // right: var(--ep-dialog-padding-primary);
 }
 .h-dialog__header_btn button {
   padding: 0;
