@@ -1,10 +1,10 @@
 import type { RouteRecordRaw } from "vue-router";
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import { basicRoutes } from "./routes";
 import NProgress from "~/config/nprogress";
 
 export const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: basicRoutes as unknown as RouteRecordRaw[],
   strict: true,
   // When switching pages, scroll to the top
