@@ -1,0 +1,1 @@
+import{_ as a}from"./Hero.vue_vue_type_script_setup_true_lang-7049f664.js";import{_ as o}from"./StoreTest.vue_vue_type_script_setup_true_lang-e96de8e1.js";import{d as n,c as r,a as e,F as t,o as s}from"./index-35f5d268.js";const l=n({__name:"index",setup(_){return(m,c)=>(s(),r(t,null,[e(a),e(o)],64))}});export{l as default};
