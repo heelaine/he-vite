@@ -5,6 +5,7 @@ import presets from "./presets/presets";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/he-vite/",
   // 服务设置
   server: {
     host: "localhost",
